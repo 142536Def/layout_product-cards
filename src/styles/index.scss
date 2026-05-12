@@ -128,9 +128,9 @@ input[type='file'] {
   &__image {
     display: block;
     width: 160px;
-    height: 160px; // Фіксована висота для стабільності
+    height: 134px; // Фіксована висота для стабільності
     object-fit: contain;
-    margin: 0 auto 32px;
+    margin: 0 auto 40px;
   }
 
   // .card__title
@@ -138,9 +138,9 @@ input[type='file'] {
   &__title {
     font-size: 12px;
     font-weight: 500;
-    line-height: 1.5; // Стандарт для Mate Academy
+    line-height: 18px; // Стандарт для Mate Academy
     margin-bottom: 4px;
-    color: #000;
+    color: #060b35;
   }
 
   // .card__code
@@ -175,7 +175,6 @@ input[type='file'] {
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
-    align-items: baseline;
     margin-top: auto;
   }
 
@@ -192,7 +191,6 @@ input[type='file'] {
   &__price-value {
     font-size: 16px;
     line-height: 18px;
-    letter-spacing: 0%;
     font-weight: 700;
   }
 
@@ -208,7 +206,7 @@ input[type='file'] {
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
-    letter-spacing: 0%;
+
     color: white;
     background-color: #00acdc;
     border-radius: 5px;
